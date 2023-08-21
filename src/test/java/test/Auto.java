@@ -1,7 +1,7 @@
 package test;
 
 public class Auto {
-	String odelo;
+	String modelo;
 	int precio;
 	Asiento[] asientos;
 	String marca;
