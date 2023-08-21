@@ -22,7 +22,7 @@ public class Auto {
 	String verificarIntegridad() {
 		boolean original = true;
 		for(int i = 0; i<asientos.length; i++) {
-			if (registro != motor.registro || motor.registro != asientos[i].registro) {
+			if ((registro != motor.registro || motor.registro != asientos[i].registro) && asientos[i] != null) {
 				original = false;
 				break;
 			}
