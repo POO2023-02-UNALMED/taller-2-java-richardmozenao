@@ -10,9 +10,7 @@ public class Asiento {
 			if (paleta[i] == c) {
 				color = c;
 				break;
-				
-			}
-			
+			}			
 		}
 	}
 }
